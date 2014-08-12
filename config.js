@@ -1,10 +1,10 @@
-var api = "http://192.241.169.147:8297";
+var api = "http://pool.democats.org:8297";
 
 var coinUnits = 100000000;
 
-var poolHost = "dsh.dashcoin.com";
+var poolHost = "pool.democats.org";
 
-var irc = "irc.freenode.net/#dashcoin";
+var irc = "irc.freenode.net/#democats";
 
 var email = "support@democats.org";
 
@@ -16,4 +16,4 @@ var blockchainExplorer = "http://chainradar.com/{symbol}/block/{id}";
 
 var transactionExplorer = "http://chainradar.com/{symbol}/transaction/{id}";
 
-var themeCss = "themes/default-theme.css";
+var themeCss = "themes/ease-way-light-theme.css";
