@@ -1,5 +1,7 @@
 var api = "http://pool.democats.org:8297";
 
+var coinDifficultyTarget = 120;
+
 var poolHost = "pool.democats.org";
 
 var irc = "irc.freenode.net/#democats";
