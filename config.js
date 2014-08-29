@@ -6,7 +6,7 @@ var irc = "irc.freenode.net/#democats";
 
 var email = "support@democats.org";
 
-var cryptonatorWidget = ["AEON-BTC", "AEON-USD", "AEON-EUR"];
+var cryptonatorWidget = ["aeon-BTC", "aeon-USD", "aeon-EUR"];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
 
