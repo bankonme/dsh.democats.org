@@ -401,7 +401,8 @@
         var marketsData = [];
         for (var i = 0; i < cryptonatorWidget.length; i++){
             (function(i){
-                cryptonatorWidget[i].replace('{symbol}', lastStats.config.symbol);
+                cryptonatorWidget[i].replace('{symbol}', lastStats.config.symbol.toLowerCase());
+                console.log(cryptonatorWidget[i]);
                 xhrMarketGets[cryptonatorWidget[i]] = $.get('https://www.cryptonator.com/api/ticker/' + cryptonatorWidget[i], function(data){
                     if(data.error) {
                         return;
