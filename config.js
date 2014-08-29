@@ -1,14 +1,12 @@
 var api = "http://pool.democats.org:8297";
 
-var coinDifficultyTarget = 120;
-
 var poolHost = "pool.democats.org";
 
 var irc = "irc.freenode.net/#democats";
 
 var email = "support@democats.org";
 
-var cryptonatorWidget = ["DSH-BTC", "DSH-USD", "DSH-EUR"];
+var cryptonatorWidget = ["{symbol}-BTC", "{symbol}-USD", "xmr-EUR"];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
 
